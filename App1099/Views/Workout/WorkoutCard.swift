@@ -41,5 +41,5 @@ struct WorkoutCard: View {
 #Preview {
     WorkoutCard(workout: Workout(uuid: UUID(), sport: "Sport", date: "11.11.1111", time: "time", visits: "visits", tag: "tag"))
         .padding()
-        .background(Color.contentBg)
+        .background(Color.bgCon)
 }

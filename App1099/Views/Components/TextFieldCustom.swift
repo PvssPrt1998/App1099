@@ -45,6 +45,6 @@ struct TargetTextField_Preview: PreviewProvider {
     static var previews: some View {
         TextFieldCustom(text: $text, prefix: "Name", placeholder: "Name")
             .padding()
-            .background(Color.contentBg)
+            .background(Color.bgCon)
     }
 }

@@ -82,7 +82,7 @@ struct ProgressCard: View {
 #Preview {
     ProgressCard(progress: Progress(uuid: UUID(), name: "Name", description: "Description", unit: "Days", totalQuantity: 30, quantity: 5), decrement: {}, increment: {}, action: {})
         .padding()
-        .background(Color.contentBg)
+        .background(Color.bgCon)
 }
 
 struct RoundedCorner: Shape {

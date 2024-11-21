@@ -14,7 +14,7 @@ struct AddSubscription: View {
     
     var body: some View {
         ZStack {
-            Color.contentBg.ignoresSafeArea()
+            Color.bgCon.ignoresSafeArea()
             VStack(spacing: 0) {
                 header
                     .padding(.horizontal, 8)

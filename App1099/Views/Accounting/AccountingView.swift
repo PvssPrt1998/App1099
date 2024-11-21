@@ -10,7 +10,7 @@ struct AccountingView: View {
     var body: some View {
         ZStack {
             Color.headerBg.ignoresSafeArea()
-            Color.contentBg
+            Color.bgCon
             
             VStack(spacing: 0) {
                 Text("Financial accounting")

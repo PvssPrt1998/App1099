@@ -40,5 +40,5 @@ struct FinanceCard: View {
 #Preview {
     FinanceCard(finance: Finance(uuid: UUID(), name: "Name", price: "Price", benefit: "Benefit", promotion: "Promotion"))
         .padding()
-        .background(Color.contentBg)
+        .background(Color.bgCon)
 }
