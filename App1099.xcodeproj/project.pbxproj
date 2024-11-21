@@ -11,6 +11,37 @@
 		995214AA2CECE4AB002CAC20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214A92CECE4AB002CAC20 /* ContentView.swift */; };
 		995214AC2CECE4AC002CAC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995214AB2CECE4AC002CAC20 /* Assets.xcassets */; };
 		995214AF2CECE4AC002CAC20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995214AE2CECE4AC002CAC20 /* Preview Assets.xcassets */; };
+		995214B72CECE719002CAC20 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214B62CECE719002CAC20 /* Splash.swift */; };
+		995214BC2CECE73F002CAC20 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214BB2CECE73F002CAC20 /* Source.swift */; };
+		995214BE2CECE7E9002CAC20 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214BD2CECE7E9002CAC20 /* Tab.swift */; };
+		995214C12CECEBE1002CAC20 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214C02CECEBE1002CAC20 /* SubscriptionView.swift */; };
+		995214C42CECED4C002CAC20 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214C32CECED4B002CAC20 /* WorkoutView.swift */; };
+		995214C72CECED72002CAC20 /* AppProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214C62CECED72002CAC20 /* AppProgressView.swift */; };
+		995214CA2CECED9B002CAC20 /* AccountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214C92CECED9B002CAC20 /* AccountingView.swift */; };
+		995214CD2CECEDC2002CAC20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214CC2CECEDC2002CAC20 /* SettingsView.swift */; };
+		995214CF2CECF087002CAC20 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214CE2CECF087002CAC20 /* Subscription.swift */; };
+		995214D12CECF2B2002CAC20 /* AddSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214D02CECF2B2002CAC20 /* AddSubscription.swift */; };
+		995214D42CED19C6002CAC20 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214D32CED19C6002CAC20 /* TextFieldCustom.swift */; };
+		995214D62CED1FFB002CAC20 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214D52CED1FFB002CAC20 /* Store.swift */; };
+		995214DA2CED204D002CAC20 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 995214D82CED204D002CAC20 /* CoreDataModel.xcdatamodeld */; };
+		995214DD2CED20AE002CAC20 /* SubscriptionCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214DB2CED20AE002CAC20 /* SubscriptionCD+CoreDataClass.swift */; };
+		995214DE2CED20AE002CAC20 /* SubscriptionCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214DC2CED20AE002CAC20 /* SubscriptionCD+CoreDataProperties.swift */; };
+		995214E02CED23DB002CAC20 /* EditSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214DF2CED23DB002CAC20 /* EditSubscription.swift */; };
+		995214E32CED3850002CAC20 /* WorkoutCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214E12CED3850002CAC20 /* WorkoutCD+CoreDataClass.swift */; };
+		995214E42CED3850002CAC20 /* WorkoutCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214E22CED3850002CAC20 /* WorkoutCD+CoreDataProperties.swift */; };
+		995214E62CED3B0E002CAC20 /* AddWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214E52CED3B0E002CAC20 /* AddWorkout.swift */; };
+		995214E82CED3FCF002CAC20 /* EditWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214E72CED3FCF002CAC20 /* EditWorkout.swift */; };
+		995214EA2CED43EE002CAC20 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214E92CED43EE002CAC20 /* WorkoutCard.swift */; };
+		995214ED2CED4A2D002CAC20 /* ProgressCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214EB2CED4A2C002CAC20 /* ProgressCD+CoreDataClass.swift */; };
+		995214EE2CED4A2D002CAC20 /* ProgressCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214EC2CED4A2C002CAC20 /* ProgressCD+CoreDataProperties.swift */; };
+		995214F02CED4E10002CAC20 /* AddProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214EF2CED4E10002CAC20 /* AddProgressView.swift */; };
+		995214F22CED4FD3002CAC20 /* EditProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214F12CED4FD3002CAC20 /* EditProgress.swift */; };
+		995214F42CED5380002CAC20 /* ProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214F32CED5380002CAC20 /* ProgressCard.swift */; };
+		995214F62CEE334B002CAC20 /* AddFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214F52CEE334B002CAC20 /* AddFinance.swift */; };
+		995214F82CEE3358002CAC20 /* EditFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214F72CEE3358002CAC20 /* EditFinance.swift */; };
+		995214FB2CEE34BC002CAC20 /* FinanceCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214F92CEE34BC002CAC20 /* FinanceCD+CoreDataClass.swift */; };
+		995214FC2CEE34BC002CAC20 /* FinanceCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214FA2CEE34BC002CAC20 /* FinanceCD+CoreDataProperties.swift */; };
+		995214FE2CEE3C70002CAC20 /* FinanceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995214FD2CEE3C70002CAC20 /* FinanceCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +50,37 @@
 		995214A92CECE4AB002CAC20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		995214AB2CECE4AC002CAC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995214AE2CECE4AC002CAC20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		995214B62CECE719002CAC20 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		995214BB2CECE73F002CAC20 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		995214BD2CECE7E9002CAC20 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		995214C02CECEBE1002CAC20 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		995214C32CECED4B002CAC20 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		995214C62CECED72002CAC20 /* AppProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProgressView.swift; sourceTree = "<group>"; };
+		995214C92CECED9B002CAC20 /* AccountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingView.swift; sourceTree = "<group>"; };
+		995214CC2CECEDC2002CAC20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		995214CE2CECF087002CAC20 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		995214D02CECF2B2002CAC20 /* AddSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscription.swift; sourceTree = "<group>"; };
+		995214D32CED19C6002CAC20 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		995214D52CED1FFB002CAC20 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		995214D92CED204D002CAC20 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		995214DB2CED20AE002CAC20 /* SubscriptionCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubscriptionCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995214DC2CED20AE002CAC20 /* SubscriptionCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubscriptionCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995214DF2CED23DB002CAC20 /* EditSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSubscription.swift; sourceTree = "<group>"; };
+		995214E12CED3850002CAC20 /* WorkoutCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995214E22CED3850002CAC20 /* WorkoutCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995214E52CED3B0E002CAC20 /* AddWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkout.swift; sourceTree = "<group>"; };
+		995214E72CED3FCF002CAC20 /* EditWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkout.swift; sourceTree = "<group>"; };
+		995214E92CED43EE002CAC20 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		995214EB2CED4A2C002CAC20 /* ProgressCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995214EC2CED4A2C002CAC20 /* ProgressCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995214EF2CED4E10002CAC20 /* AddProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgressView.swift; sourceTree = "<group>"; };
+		995214F12CED4FD3002CAC20 /* EditProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProgress.swift; sourceTree = "<group>"; };
+		995214F32CED5380002CAC20 /* ProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCard.swift; sourceTree = "<group>"; };
+		995214F52CEE334B002CAC20 /* AddFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFinance.swift; sourceTree = "<group>"; };
+		995214F72CEE3358002CAC20 /* EditFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFinance.swift; sourceTree = "<group>"; };
+		995214F92CEE34BC002CAC20 /* FinanceCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FinanceCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995214FA2CEE34BC002CAC20 /* FinanceCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FinanceCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995214FD2CEE3C70002CAC20 /* FinanceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +113,14 @@
 		995214A62CECE4AB002CAC20 /* App1099 */ = {
 			isa = PBXGroup;
 			children = (
+				995214B92CECE723002CAC20 /* Store */,
+				995214B82CECE71F002CAC20 /* Model */,
+				995214B52CECE70E002CAC20 /* Views */,
 				995214A72CECE4AB002CAC20 /* App1099App.swift */,
 				995214A92CECE4AB002CAC20 /* ContentView.swift */,
 				995214AB2CECE4AC002CAC20 /* Assets.xcassets */,
 				995214AD2CECE4AC002CAC20 /* Preview Content */,
+				995214BB2CECE73F002CAC20 /* Source.swift */,
 			);
 			path = App1099;
 			sourceTree = "<group>";
@@ -65,6 +131,113 @@
 				995214AE2CECE4AC002CAC20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		995214B52CECE70E002CAC20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				995214D22CED19AA002CAC20 /* Components */,
+				995214CB2CECEDB7002CAC20 /* Settings */,
+				995214C82CECED82002CAC20 /* Accounting */,
+				995214C52CECED68002CAC20 /* Progress */,
+				995214C22CECED3F002CAC20 /* Workout */,
+				995214BF2CECEBD3002CAC20 /* Subscription */,
+				995214B62CECE719002CAC20 /* Splash.swift */,
+				995214BD2CECE7E9002CAC20 /* Tab.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		995214B82CECE71F002CAC20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				995214CE2CECF087002CAC20 /* Subscription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995214B92CECE723002CAC20 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				995214D72CED202E002CAC20 /* Subs */,
+				995214D52CED1FFB002CAC20 /* Store.swift */,
+				995214D82CED204D002CAC20 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		995214BF2CECEBD3002CAC20 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				995214C02CECEBE1002CAC20 /* SubscriptionView.swift */,
+				995214D02CECF2B2002CAC20 /* AddSubscription.swift */,
+				995214DF2CED23DB002CAC20 /* EditSubscription.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		995214C22CECED3F002CAC20 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				995214C32CECED4B002CAC20 /* WorkoutView.swift */,
+				995214E52CED3B0E002CAC20 /* AddWorkout.swift */,
+				995214E72CED3FCF002CAC20 /* EditWorkout.swift */,
+				995214E92CED43EE002CAC20 /* WorkoutCard.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		995214C52CECED68002CAC20 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				995214C62CECED72002CAC20 /* AppProgressView.swift */,
+				995214EF2CED4E10002CAC20 /* AddProgressView.swift */,
+				995214F12CED4FD3002CAC20 /* EditProgress.swift */,
+				995214F32CED5380002CAC20 /* ProgressCard.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		995214C82CECED82002CAC20 /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				995214C92CECED9B002CAC20 /* AccountingView.swift */,
+				995214F52CEE334B002CAC20 /* AddFinance.swift */,
+				995214F72CEE3358002CAC20 /* EditFinance.swift */,
+				995214FD2CEE3C70002CAC20 /* FinanceCard.swift */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		995214CB2CECEDB7002CAC20 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				995214CC2CECEDC2002CAC20 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		995214D22CED19AA002CAC20 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				995214D32CED19C6002CAC20 /* TextFieldCustom.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		995214D72CED202E002CAC20 /* Subs */ = {
+			isa = PBXGroup;
+			children = (
+				995214F92CEE34BC002CAC20 /* FinanceCD+CoreDataClass.swift */,
+				995214FA2CEE34BC002CAC20 /* FinanceCD+CoreDataProperties.swift */,
+				995214EB2CED4A2C002CAC20 /* ProgressCD+CoreDataClass.swift */,
+				995214EC2CED4A2C002CAC20 /* ProgressCD+CoreDataProperties.swift */,
+				995214E12CED3850002CAC20 /* WorkoutCD+CoreDataClass.swift */,
+				995214E22CED3850002CAC20 /* WorkoutCD+CoreDataProperties.swift */,
+				995214DB2CED20AE002CAC20 /* SubscriptionCD+CoreDataClass.swift */,
+				995214DC2CED20AE002CAC20 /* SubscriptionCD+CoreDataProperties.swift */,
+			);
+			path = Subs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +310,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995214CA2CECED9B002CAC20 /* AccountingView.swift in Sources */,
+				995214F02CED4E10002CAC20 /* AddProgressView.swift in Sources */,
+				995214C42CECED4C002CAC20 /* WorkoutView.swift in Sources */,
+				995214BC2CECE73F002CAC20 /* Source.swift in Sources */,
 				995214AA2CECE4AB002CAC20 /* ContentView.swift in Sources */,
+				995214F62CEE334B002CAC20 /* AddFinance.swift in Sources */,
+				995214CF2CECF087002CAC20 /* Subscription.swift in Sources */,
+				995214E32CED3850002CAC20 /* WorkoutCD+CoreDataClass.swift in Sources */,
+				995214E42CED3850002CAC20 /* WorkoutCD+CoreDataProperties.swift in Sources */,
+				995214FB2CEE34BC002CAC20 /* FinanceCD+CoreDataClass.swift in Sources */,
+				995214FC2CEE34BC002CAC20 /* FinanceCD+CoreDataProperties.swift in Sources */,
+				995214BE2CECE7E9002CAC20 /* Tab.swift in Sources */,
+				995214D42CED19C6002CAC20 /* TextFieldCustom.swift in Sources */,
+				995214D62CED1FFB002CAC20 /* Store.swift in Sources */,
+				995214D12CECF2B2002CAC20 /* AddSubscription.swift in Sources */,
+				995214F42CED5380002CAC20 /* ProgressCard.swift in Sources */,
+				995214E82CED3FCF002CAC20 /* EditWorkout.swift in Sources */,
+				995214CD2CECEDC2002CAC20 /* SettingsView.swift in Sources */,
+				995214DD2CED20AE002CAC20 /* SubscriptionCD+CoreDataClass.swift in Sources */,
+				995214ED2CED4A2D002CAC20 /* ProgressCD+CoreDataClass.swift in Sources */,
+				995214EE2CED4A2D002CAC20 /* ProgressCD+CoreDataProperties.swift in Sources */,
+				995214DE2CED20AE002CAC20 /* SubscriptionCD+CoreDataProperties.swift in Sources */,
+				995214B72CECE719002CAC20 /* Splash.swift in Sources */,
+				995214C72CECED72002CAC20 /* AppProgressView.swift in Sources */,
+				995214E02CED23DB002CAC20 /* EditSubscription.swift in Sources */,
+				995214EA2CED43EE002CAC20 /* WorkoutCard.swift in Sources */,
 				995214A82CECE4AB002CAC20 /* App1099App.swift in Sources */,
+				995214C12CECEBE1002CAC20 /* SubscriptionView.swift in Sources */,
+				995214F82CEE3358002CAC20 /* EditFinance.swift in Sources */,
+				995214DA2CED204D002CAC20 /* CoreDataModel.xcdatamodeld in Sources */,
+				995214E62CED3B0E002CAC20 /* AddWorkout.swift in Sources */,
+				995214F22CED4FD3002CAC20 /* EditProgress.swift in Sources */,
+				995214FE2CEE3C70002CAC20 /* FinanceCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,11 +478,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1099/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "da sorte sportese tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +492,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nowww123.App1099;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +512,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1099/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "da sorte sportese tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +526,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nowww123.App1099;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -342,6 +558,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		995214D82CED204D002CAC20 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				995214D92CED204D002CAC20 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 995214D92CED204D002CAC20 /* CoreDataModel.xcdatamodel */;
+			name = CoreDataModel.xcdatamodeld;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9952149C2CECE4AB002CAC20 /* Project object */;
 }
