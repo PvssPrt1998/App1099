@@ -490,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nowww123.App1099;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suv.d4s0rb3str;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -524,7 +524,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nowww123.App1099;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suv.d4s0rb3str;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -566,7 +566,6 @@
 				995214D92CED204D002CAC20 /* CoreDataModel.xcdatamodel */,
 			);
 			currentVersion = 995214D92CED204D002CAC20 /* CoreDataModel.xcdatamodel */;
-			name = CoreDataModel.xcdatamodeld;
 			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
